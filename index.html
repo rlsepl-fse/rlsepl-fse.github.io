@@ -12,7 +12,7 @@
     <link href="./index_files/css(1)" rel="stylesheet" type="text/css">
     <style>
       @media (min-width: 768px) {
-        .sidebar { position : fixed; }
+        .sidebar { position : absolute; }
         footer {
           height : 100vh;
         }
@@ -57,7 +57,7 @@
       div .page-header {
         margin-top  : 0;
       }
-      #navlinks { overflow-y : auto; height : 70%; text-align: center;}
+      #navlinks { height : 70%; text-align: center;}
       h1 {
         font-size: 48px;
         text-align: center;
@@ -168,10 +168,18 @@
   <body class="page-container" role="document" data-spy="scroll" data-target="#navbar-main" data-offset="200" id="top" data-gr-c-s-loaded="true">
 
     <div class="container main-cont">
-    <header class="row">
+    <header class="row" style="
+    margin-top: 0;
+    padding: 12em 0 12em 0;
+    background-image: url(./Office-Sacramento.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+">
+<h3>Workshop on Representation Learning <br>for Software Engineering and Program Languages</h3><h5><b>Co-located with <a href="https://2020.esec-fse.org/" target="_blank" >ACM SIGSOFT FSE 2020 </a>, <a href="https://www.google.com/maps/place/Sacramento,+CA/@38.5616505,-121.5829968,11z/data=!3m1!4b1!4m5!3m4!1s0x809ac672b28397f9:0x921f6aaa74197fdb!8m2!3d38.5815719!4d-121.4943996" target="_blank" >Sacramento CA.</a> Friday, Nov 13th, 2020</b></h5>
 
       <div id="leftbar" class="col-sm-3 logo">
-      <nav id="navbar-main" class="sidebar" style="width: 300px;">
+      <nav id="navbar-main" class="sidebar" style="width: 300px; top: 180px;">
         <h1 style="line-spacing:0.6; text-shadow: 0px 0px 5px white;"><b><i>RL+</i></b><br><b>SE&PL</b><br>
         <span style="font-size : 60px;  display:block;margin-top : -1px;">2020</span></h1>
         <ul id="navlinks" class="list-unstyled nav">
@@ -185,11 +193,6 @@
           <li><a role="presentation" href="#contact">Contact</a></li>
         </ul>
       </nav>
-      </div>
-
-      <div class="page-header col-sm-8">
-        <h3>Workshop on Representation Learning for Software Engineering and Program Languages</h3>
-	<b> Co-located with <a href="https://2020.esec-fse.org/" target="_blank" >ACM SIGSOFT FSE 2020 </a>, <a href="https://www.google.com/maps/place/Sacramento,+CA/@38.5616505,-121.5829968,11z/data=!3m1!4b1!4m5!3m4!1s0x809ac672b28397f9:0x921f6aaa74197fdb!8m2!3d38.5815719!4d-121.4943996" target="_blank" >Sacramento CA.</a> Friday, Nov 13th, 2020 </b>
       </div>
 
     </header>
