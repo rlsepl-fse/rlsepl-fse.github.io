@@ -57,7 +57,7 @@
       div .page-header {
         margin-top  : 0;
       }
-      #navlinks { overflow-y : auto; height : 70%; }
+      #navlinks { overflow-y : auto; height : 70%; text-align: center;}
       h1 {
         font-size: 48px;
         text-align: center;
@@ -156,6 +156,12 @@
       .session-organizer {
         font-style : italic;
       }
+      .col-sm-3 {
+        width: 18%;
+      }
+      .col-sm-8 {
+        width: 80%;
+      }
     </style>
   <style type="text/css"></style></head>
 
@@ -165,17 +171,17 @@
     <header class="row">
 
       <div id="leftbar" class="col-sm-3 logo">
-      <nav id="navbar-main" class="sidebar" style="width: 262.5px;">
+      <nav id="navbar-main" class="sidebar" style="width: 300px;">
         <h1 style="line-spacing:0.6; text-shadow: 0px 0px 5px white;"><b><i>RL+</i></b><br><b>SE&PL</b><br>
         <span style="font-size : 60px;  display:block;margin-top : -1px;">2020</span></h1>
         <ul id="navlinks" class="list-unstyled nav">
           <li class=""><a role="presentation" href="#overview">Overview</a></li>
-          <li class=""><a role="presentation" href="#workshop_program">Workshop Program</a></li>
-          <li class=""><a role="presentation" href="#call_for_participation">Call for participation</a></li>
-          <li class=""><a role="presentation" href="#submissions">Submissions</a></li>
-          <li class=""><a role="presentation" href="#important_dates">Important dates</a></li>
-          <li class=""><a role="presentation" href="#attendee_llst">Program Committee</a></li>      
+          <!-- <li class=""><a role="presentation" href="#workshop_program">Workshop Program</a></li> -->
+          <li class=""><a role="presentation" href="#call_for_participation">Call For Participation</a></li>
+          <!-- <li class=""><a role="presentation" href="#submissions">Submissions</a></li> -->
+          <li class=""><a role="presentation" href="#important_dates">Important Dates</a></li>
           <li><a role="presentation" href="#organizers">Organizers</a></li>
+          <li class=""><a role="presentation" href="#attendee_llst">Program Committee</a></li>      
           <li><a role="presentation" href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -183,9 +189,6 @@
 
       <div class="page-header col-sm-8">
         <h3>Workshop on Representation Learning for Software Engineering and Program Languages</h3>
-        <!-- <h3>NSF Interdisciplinary Workshop on <br>Statistical NLP and Software Engineering<br>
-          <small>Oct 25–27, 2015 |  Microsoft Research | Redmond, WA, USA</small>
-        </h3> -->
 	<b> Co-located with <a href="https://2020.esec-fse.org/" target="_blank" >ACM SIGSOFT FSE 2020 </a>, <a href="https://www.google.com/maps/place/Sacramento,+CA/@38.5616505,-121.5829968,11z/data=!3m1!4b1!4m5!3m4!1s0x809ac672b28397f9:0x921f6aaa74197fdb!8m2!3d38.5815719!4d-121.4943996" target="_blank" >Sacramento CA.</a> Friday, Nov 13th, 2020 </b>
       </div>
 
@@ -208,16 +211,16 @@
         </section>
        
               
-        <section id="workshop_program"> <h2>Workshop program</h2>
+        <!-- <section id="workshop_program"> <h2>Workshop Program</h2>
           <p>
             The workshop will be held Friday, November 13th, co-located with FSE, 2020.
           </p>
           <h3>Program overview</h3>
           <p>TBD</p>
-        </section>
+        </section> -->
        
         <section id="call_for_participation"> 
-            <h2>Call for participation</h2>
+            <h2>Call For Participation</h2>
          <p align="justify">
 			The main goal of the RL+SE&PL workshop is to accelerate the exposure of the SE and PL community to  the emerging and fast growing AI research in representation learning that plays as the key center in AI,  leading to research results, techniques and perspectives that challenge the status quo in the discipline. </br></br>
 
@@ -231,69 +234,24 @@
 			  
         </section>
 
-        <section id="submissions"> <h2>Submissions</h2>
+        <!-- <section id="submissions"> <h2>Submissions</h2>
           <p>
             TBD
           </p>
-        </section>
+        </section> -->
 
-        <section id="important_dates"> <h2>Important dates</h2>
-        
-          <!-- <dl class="dl-horizontal">
-            <dt>July 15, 2020</dt> <dd>Workshop papers submission</dd>
-            <dt>Aug 26, 2020</dt> <dd>Workshop papers notification</dd>
-            <dt>Sept 18, 2020</dt> <dd>Workshop papers camera-ready (hard)</dd>
-          </dl> -->
+        <section id="important_dates"> <h2>Important Dates</h2>
+          <b>Dates:</b>
           <ul>
           <li>July 26, 2020 : Workshop papers submission </li>
           <li>Aug 26, 2020 : Workshop papers notification</li>
           <li>Sept 18, 2020 : Workshop papers camera-ready (hard) </li>
-
           </li>
           </ul>
-        
+          <b>Submissions Links:</b></br>TBD
         </section>
-        
-        <section id="attendee_llst"> <h2>Program Committee</h2>
-          <table class="table-striped" cellspacing="100">
-            
-                  <!--
-              <thead>
-        
-              <tr>
-                <th>Name</th>
-                <th>Institution</th>
-              </tr>
-            </thead>
-                -->
 
-            <tbody>
-              <tr><th>Program Chairs</th></tr>
-                <tr><td>Dr. Shaohua Wang</td><td>New Jersey Institute of Technology, USA</td></tr>
-                <tr><td>Dr. Tien N. Nguyen</td><td>The University of Texas at Dallas, USA</td></tr>
-                
-              <tr><th>Program Committee</th></tr>
-                <tr><td>Dr. Hoa Khanh Dam</td><td>University of Wollongong, Australia</td></tr>
-                <tr><td>Dr. Jiaping Gui</td><td>NEC America, USA</td></tr>
-                <tr><td>Dr. Heng Li</td><td>Queen's University, Canada</td></tr>
-                <tr><td>Dr. Tien N. Nguyen</td><td>University of Texas at Dallas, USA</td></tr>
-                <tr><td>Dr. Michael Pradel</td><td>University of Stuttgart, Germany</td></tr>
-                <tr><td>Dr. Weiyi Shang</td><td>Concordia University, Canada</td></tr>
-                <tr><td>Dr. Yuan Tian</td><td>Queen's University, Canada</td></tr>
-                <tr><td>Dr. Shaohua Wang</td><td>New Jersey Institute of Technology, USA</td></tr>
-                
-            </tbody>
-          </table>
-        </section>
-        
-
-
-        
-
-        
-        
-
-        <section id="organizers"> <h2>Organizers</h2>
+                <section id="organizers"> <h2>Organizers</h2>
           <ul class="list-group">
             <li class="list-group-item">
               <a href="https://davidshaohuawang.wordpress.com/" class="navigate" target="_blank">
@@ -331,50 +289,39 @@
                 </div>
               </a>
             </li>
-            <!-- <li class="list-group-item">
-            <a href="https://miltos.allamanis.com/" class="navigate" target="_blank">
-              <div class="media">
-                <span class="pull-left">
-                  <img alt="Miltiadis Allamanis" src="https://2020.msrconf.org/getProfileImage/miltiadisallamanis/061a6aea-7e0a-47b5-b345-cef4eda85eb3/micro-avatar.jpg?1505458859000" class="outputimage media-object thumbnail no-bottom-margin" style="border: 1px solid #ddd;border-radius: 50%;height: 60px;width: 60px;" ></span>
-                <div class="media-body">
-                  <h5 class="media-heading">Miltiadis Allamanis
-                    <span class="pull-right">
-                      <small>Program Chair</small></span>
-                  </h5>
-                  <h5 class="media-heading">
-                    <span class="text-black">Microsoft Research, Cambridge</span></h5>
-                  <h5 class="media-heading">
-                    <small>United Kingdom</small></h5>
-                </div>
-              </div>
-            </a>
-            </li> -->
-          </ul>
-          
+          </ul> 
+        </section>
+        
+        <section id="attendee_llst"> <h2>Program Committee</h2>
+          <table class="table-striped" cellspacing="100">
+            
+                  <!--
+              <thead>
+        
+              <tr>
+                <th>Name</th>
+                <th>Institution</th>
+              </tr>
+            </thead>
+                -->
 
-          <!-- <li class="list-group-item">
-            <a href="https://2020.msrconf.org/profile/rijnardvantonder" class="navigate">
-              <div class="media">
-                <span class="pull-left">
-                  <img alt="Rijnard van Tonder" src="https://2020.msrconf.org/getProfileImage/rijnardvantonder/59058a56-6f1e-49b0-b6c5-25412a4e9fb2/micro-avatar.jpg?1527050210000" class="outputimage media-object thumbnail no-bottom-margin"></span>
-                <div class="media-body">
-                  <h5 class="media-heading">Rijnard van Tonder
-                    <span class="pull-right">
-                      <small></small></span>
-                  </h5>
-                  <h5 class="media-heading">
-                    <span class="text-black">Sourcegraph</span></h5>
-                  <h5 class="media-heading">
-                    <small>United States</small></h5>
-                </div>
-              </div>
-            </a>
-          </li> -->
-        <!-- <ul>
-          <li>Shaohua Wang (New Jersey Institute of Technology) </li>
-          <li>Tien N. Nguyen (The University of Texas at Dallas) </li>
-        </ul> -->
-          
+            <tbody>
+              <tr><th>Program Chairs:</th></tr>
+                <tr><td>Dr. Shaohua Wang</td><td>New Jersey Institute of Technology, USA</td></tr>
+                <tr><td>Dr. Tien N. Nguyen</td><td>The University of Texas at Dallas, USA</td></tr>
+                <tr></tr>
+              <tr><th>Program Committee:</th></tr>
+                <tr><td>Dr. Hoa Khanh Dam</td><td>University of Wollongong, Australia</td></tr>
+                <tr><td>Dr. Jiaping Gui</td><td>NEC America, USA</td></tr>
+                <tr><td>Dr. Heng Li</td><td>Queen's University, Canada</td></tr>
+                <tr><td>Dr. Tien N. Nguyen</td><td>University of Texas at Dallas, USA</td></tr>
+                <tr><td>Dr. Michael Pradel</td><td>University of Stuttgart, Germany</td></tr>
+                <tr><td>Dr. Weiyi Shang</td><td>Concordia University, Canada</td></tr>
+                <tr><td>Dr. Yuan Tian</td><td>Queen's University, Canada</td></tr>
+                <tr><td>Dr. Shaohua Wang</td><td>New Jersey Institute of Technology, USA</td></tr>
+                
+            </tbody>
+          </table>
         </section>
 
         <footer>
